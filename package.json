@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "BASE_URL=/vue-admin-demo/ vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "push-dir --dir=dist --master=gh-pages"
+    "deploy": "push-dir --dir=dist --master=gh-pages --cleanup"
   },
   "dependencies": {
     "axios": "^0.19.2",
