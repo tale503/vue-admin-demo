@@ -5,8 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "deploy": "push-dir --dir=dist --master=gh-pages --cleanup"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "axios": "^0.19.2",
@@ -14,7 +13,6 @@
     "element-ui": "^2.13.0",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
-    "push-dir": "^0.4.1",
     "screenfull": "4.2.0",
     "vue": "^2.6.11",
     "vue-router": "^3.1.5",
