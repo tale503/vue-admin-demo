@@ -124,6 +124,20 @@ export default {
       border-right: none;
       background: $menuBg;
       color: $menuText;
+      &::-webkit-scrollbar {
+        width : 0;
+        height: 0;
+      }
+      &::-webkit-scrollbar-thumb {
+        border-radius: 0;
+        box-shadow: none;
+        background: none;
+      }
+      &::-webkit-scrollbar-track {
+        box-shadow: none;
+        border-radius: 0;
+        background: none;
+      }
       .el-menu-item {
         color: $menuText;
         &:hover, &:focus {
